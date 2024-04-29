@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spartan Attributes Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Spartan Attributes Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#resilience">Resilience</a></li>
+                <li><a href="#talents">Talents</a></li>
+                <li><a href="#adventures">Adventures</a></li>
+                <li><a href="#navigation">Navigation</a></li>
+                <li><a href="#service">Service</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <!-- Spiritual, Passionate, Academic content goes here -->
+        </section>
+
+        <section id="resilience">
+            <h2>Resilience</h2>
+            <!-- Content related to resilience -->
+        </section>
+
+        <section id="talents">
+            <h2>Talents</h2>
+            <!-- Content related to talents -->
+        </section>
+
+        <section id="adventures">
+            <h2>Adventures</h2>
+            <!-- Content related to adventures -->
+        </section>
+
+        <section id="navigation">
+            <h2>Navigation</h2>
+            <!-- Content related to navigation -->
+        </section>
+
+        <section id="service">
+            <h2>Service</h2>
+            <!-- Content related to service -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact information, social media links, and a brief summary of the website's mission.</p>
+    
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+    </footer>
+</body>
+</html>
